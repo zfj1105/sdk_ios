@@ -12,8 +12,8 @@
 
 
 //生产地址
-#define KAPI_HEAD                             @"https://api.zfj2602.com/sdkapi.php"
-#define KAPI_STATISTICS                       @"https://sdk.zfj2602.com/api/htapi.php"
+#define KAPI_HEAD                             @"https://api.htdata.com/sdkapi.php"
+#define KAPI_STATISTICS                       @"https://sdk.htdata.com/api/htapi.php"
 
 //测试地址
 //#define KAPI_HEAD                             @"http://api_dev.zfj2602.com/sdkapi.php"

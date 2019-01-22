@@ -202,7 +202,7 @@
     
     NSString *urla = [NSString stringWithFormat:@"orderid=%@&receipt=%@&transaction_id=%@",self.orderID,encodingReceipt,transaction.transactionIdentifier];
     // 将票据存到本地
-    [self saveReceiptToLocal:urla];
+    [self saveReceiptToLocal:urla];    
     
     //拼接请求数据
     NSData *bodyData = [HTRSA encryptStringToData:urla publicKey:self.pubKey];
